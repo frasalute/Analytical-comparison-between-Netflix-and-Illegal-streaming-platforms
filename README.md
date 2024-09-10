@@ -1,4 +1,7 @@
 # Analytical-comparison-between-Netflix-and-Illegal-streaming-platforms
+
+(Done in a university setting as project part of a Market Research and Analysis class together with other two students.)
+
 # INTRODUCTION
 
 Whether someone is interested in tv series or movies, action or drama, documentaries or sci-fi, it is nowadays common practice to use streaming platforms as a form of access to this kind of entertainment. A streaming platform is an on-demand online entertainment source for TV shows, movies, and other streaming media, i.e. multimedia that is delivered and consumed in a continuous manner from a source, with little or no intermediate storage in network elements. This is just a fancy way of saying that streaming platforms deliver directly from the platform to the consumer.
