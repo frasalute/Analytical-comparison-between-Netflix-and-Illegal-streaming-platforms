@@ -27,10 +27,21 @@ From SAS results represented as tables, we can see that majority (66,67%) of our
 Considering our main topic we were expecting a higher percentage of replies from students, we have included the third question (d_3) about the status in our survey in order to verify and know the exact percentage of students in our sample. They made up for 43,24% in total, followed by workers (36,04%), and people who are both: students and workers (16,22%). Also, we collected replies from 3,6% of unemployed respondents and 0,9% retired. From SAS results represented as tables, we can see that majority (66,67%) of our replies came from people that are aged between 18 to 25 years old, while percentages of replies from the other age segments (<18; 26-35; 36-50; 50+) are 4,5%, 18,92%, 5,41%, 4,5% respectively. In addition, most (59,46%) of our respondents identify themselves as females, 33,33% as males, 4,5% as non-binary, 1,8% as gender-fluid, and the rest of respondents preferred not to say their gender.
 Considering our main topic we were expecting a higher percentage of replies from students, we have included the third question (d_3) about the status in our survey in order to verify and know the exact percentage of students in our sample. They made up for 43,24% in total, followed by workers (36,04%), and people who are both: students and workers (16,22%). Also, we collected replies from 3,6% of unemployed respondents and 0,9% retired. Having information about the number of family members of our respondents we were also keen to know whether there are families that have siblings or kids younger than 18 years. We were considering the hypothesis that having younger members of the family could affect the choice between Netflix and illegal streaming platforms. Results showed that the majority of the respondents (72,07%) do not have siblings or children that are underaged in their families. 
 
+<img width="581" alt="Schermata 2024-09-10 alle 15 31 01" src="https://github.com/user-attachments/assets/c447e159-b7a7-4c3d-94a5-58fd84b3a1b1">
+
+<img width="581" alt="Schermata 2024-09-10 alle 15 31 27" src="https://github.com/user-attachments/assets/910fe9d1-4b8c-4852-93a4-1335b37a6d2d">
+
+<img width="581" alt="Schermata 2024-09-10 alle 15 31 47" src="https://github.com/user-attachments/assets/692cbe36-0d10-4793-904f-7b6bdb55e363">
+
+We can conclude that our sample is a convenience sample, that does not represent the total population because we mainly collected responses from young people.
+
 # IMPORTANCE QUESTIONS AND PRINCIPAL COMPONENT ANALYSIS
 # 3.1 MEANS PROCEDURE
 We began our analysis of the Importance data with the means procedure, which allows us to see main statistical measures such as mean, standard deviation, minimum and maximum. It calculates the average value for each variable, in this way we can understand which variables are most important in our sample.
 In addition, standard deviation measures the dispersion of the values around the mean: the further the values are, the greater the standard deviation.
+
+<img width="362" alt="Schermata 2024-09-10 alle 15 30 34" src="https://github.com/user-attachments/assets/55a266cd-ba12-4835-88d0-ecfe819c1d8f">
+
 From the table above we can see that Netflix's convenience of having no advertisement and high resolution (q_2) and the access to other countries' productions (q_14) of illegal platforms are the most important variables to describe the choice between Netflix and illegal platforms in our sample. Because their means are respectively 5.5 and 5.53 out of 7. Our respondents are not that concerned about catching malware or viruses (q_17) while using illegal streaming platforms.
 Variables q_10 (longer waiting time due to copyright) and q_11 (parental control) have the lowest standard deviation, which means that respondents' responses did not vary much around the mean.
 The biggest SD (2.09) comes from the variable of watching simultaneously with friends without multiple accounts (q_19), which represents the fact that most people disagree about their judgment of this illegal platforms' feature. From the results, we can also see that people also disagree a lot about less waiting time for illegal streaming platforms (2.05).
@@ -40,9 +51,13 @@ Principal component analysis is a factor transformation of our original dataspac
 From the input dataset consisting of "n" rows and "p" variables, "p principal components" can be computed, each one of which is a linear combination of the original variables, with coefficients equal to the eigenvectors of the correlation matrix.
 We can start with the correlation, which is a measure that spans from -1 to +1 and describes the linear relationship between two variables.
 Two variables move in the same direction (when one increases, the other goes up as well) if the correlation coefficient is positive, and in opposite direction (when one increases and the other decreases) the coefficient is negative. If the correlation is +1 or -1 we can see the perfect linear dependency, while if it is equal to 0 the two variables are not correlated. Correlation then is the ratio of the covariance (measurement of confusion on a data space) of the two variables to the product of their standard deviations.
+
+<img width="585" alt="Schermata 2024-09-10 alle 15 29 59" src="https://github.com/user-attachments/assets/576a6212-a4d1-45ba-8e6c-0c2be1d9826d">
+
 We can see the highest positive correlation coefficient (0.84) between wider content choices (q_12) and access to other countries' productions (q_14) of illegal streaming platforms. The highest negative correlation (-0.42) is between access to many languages in both audio and subtitles on Netflix( q_7) and pop-up and explicit pop-ups in illegal streaming platforms (q_16). It makes sense because people who are willing to access other countries' productions automatically could have a wider content choice in illegal streaming.
 However, most correlation coefficients are positive, which means that our matrix is inflated by a positive correlation trend. And, since our variables have some linear dependency between each other we are not operating in Euclidean space (in which all variables are independent and orthogonal). As a consequence, we cannot use either the Ward method or the other algorithms based on distance measurements of our units to create clusters.
 Our database should have a 0 correlation to be useful for our clusterization because each variable needs to have a specific meaning in characterizing the clusters.
+
 <img width="292" alt="Schermata 2024-09-10 alle 15 29 15" src="https://github.com/user-attachments/assets/31a67ac7-70d7-4f76-8bd5-7eb6c6015d69">
 
 Each eigenvalue is the length of each principal component and thus it describes the variability associated with each PC. We have 21 PC since we have 21 variables. We can find the portion of the variability that each PC represents by dividing its length by the sum of all their lengths, which is equal to 21.
@@ -51,9 +66,32 @@ In this case, we can select the Principal Components 1-2-3-4 and also 5, since 0
 We can describe the other principal components as noise generated by the mind of the respondents that confounds the similarity structure of our data.
 In the eigenvector table, we see the correlation between each original variable and principal component.
 
+<img width="604" alt="Schermata 2024-09-10 alle 15 34 21" src="https://github.com/user-attachments/assets/87565c80-85ba-4d94-9389-c949b4a5afa1">
+
 Looking at the correlation between our variables and PC1 we see that we have almost no trade-off, in fact when one variable increases almost all the others do the same. We have size effect, as also the positive trend in the correlation matrix suggested to us.
 
 # 3.3 SIZE EFFECT
 Size effect is a very common phenomenon in these types of surveys about opinions. It is the general trend of our measurement and it creates distortion and inflation in the data set.
 This phenomenon is a consequence of the subjectivity of the people about the perception they have of the scale when they are rating, which depends on the average level in the mind of people participating and is related to emotional and cultural variables.
 We need to eliminate this distortion (and the size effect) by transforming our original variables based on a scale from 1 to 7 into new variables, with a new scale from -1 to +1, in which -1 is the minimum, 0 is the average and +1 is the maximum.
+In SAS we used array function to create the new variables from the old ones and the if statement to generate a code according to which the variables were to be changed.
+
+<img width="426" alt="Schermata 2024-09-10 alle 15 35 19" src="https://github.com/user-attachments/assets/20a24f4a-5c9c-4219-9e34-26a5ae301260">
+
+Compared to the old variables, there is a correspondence between the most and least important variables. In fact, the rank in terms of relative importance does not change. That is, transforming the data space does not change the relative importance between variables, it just eliminates the size effect of it: the convenience of Netflix and access to other countries' production of illegal streaming platforms are still the most important variables with the least standard deviations while the danger of malware or viruses is the least important for our sample.
+At this point, we proceeded with the principal component analysis (PCA) to select the essential part of variability to describe our sample. The factor transformation of our original data with principal component analysis allows us to observe a dataspace by transforming it in an orthogonal space, in which we can use the Euclidean distance. We can prove it by computing the correlation coefficients between our Principal Components.
+
+<img width="615" alt="Schermata 2024-09-10 alle 15 35 55" src="https://github.com/user-attachments/assets/d20d44b6-034a-4eb5-bf0d-9bca8ae7f638">
+
+We observe that now, after the elimination of size effect, we do not have a general trend, we have trade-offs among our variables and more negative correlation coefficients.
+The highest correlation coefficient is still between wider content choices and access to other countries' productions but after cleaning the data some negative correlations such as pop-ups and explicit advertisements and access to many languages in both audio and subtitles are even more negative.
+We assume that: (1) the negative relationship among these variables is emphasized after eliminating the size effect, (2) people who are positively interested in wider content are also interested in access to other countries' production, and (3) as we have almost 0 correlation between the possibility to receive some malware or viruses while using illegal streaming platforms and feature to search for the preferred language there both of them has almost 0 effect on the other.
+By looking at the eigenvalue table we can understand how each Principal Component is important in relation to the others.
+
+<img width="618" alt="Schermata 2024-09-10 alle 15 36 26" src="https://github.com/user-attachments/assets/c4e9915f-cf0e-463b-969f-8f7e21b6e3be">
+
+We observe that now, after the elimination of size effect, we do not have a general trend, we have trade-offs among our variables and more negative correlation coefficients.
+The highest correlation coefficient is still between wider content choices and access to other countries' productions but after cleaning the data some negative correlations such as pop-ups and explicit advertisements and access to many languages in both audio and subtitles are even more negative.
+We assume that: (1) the negative relationship among these variables is emphasized after eliminating the size effect, (2) people who are positively interested in wider content are also interested in access to other countries' production, and (3) as we have almost 0 correlation between the possibility to receive some malware or viruses while using illegal streaming platforms and feature to search for the preferred language there both of them has almost 0 effect on the other.
+By looking at the eigenvalue table we can understand how each Principal Component is important in relation to the others.
+
