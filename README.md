@@ -135,3 +135,43 @@ The Ward algorithm focuses on minimizing inter-cluster variability and maximizin
 
 <img width="576" alt="Schermata 2024-09-10 alle 15 40 14" src="https://github.com/user-attachments/assets/ffeecf62-aeae-4b8a-b0b3-7049bfe93ffd">
 
+The next step is deciding how many clusters to select. In doing so, trade- offs between the reduction of clusters' complexity and the increase of Fusion Distance (internal variability due to merging groups together) must be carefully taken into consideration.
+We decided that for the purpose of our research, 5 clusters would work best.
+We then proceeded with running a frequency analysis in order to understand how many respondents we had at this point in each cluster. Additionally, we performed the proc means formula which allowed us to acknowledge which variables characterized the new clusters.
+
+<img width="576" alt="Schermata 2024-09-10 alle 15 41 25" src="https://github.com/user-attachments/assets/e718d13f-1d14-43fa-bb4c-df8fd96186eb">
+
+Clusters are strongly positively characterized by those variables that have a positive mean and negatively characterized by those variables with a negative mean.
+
+# 3.6 T-TEST
+In order to understand if the difference between the two means is real or due to random effect, performing a T-Test analysis was our next move. This analysis is useful to recognize if the relationship between quantitative variables and clusters is noteworthy.
+The study consists in examining if, for each variable, the cluster average is different from the sample average only because of random effect.
+We therefore created two main hypotheses that we then set against each other: H0 is called the "null hypothesis" and states that the cluster average and the sample average are equal; H1, called the "alternative hypothesis", simply states that the two of them differ.
+A p-value, i.e. the probability of observing our H0 hypothesis to be true, was then needed to be found. Any p-value is connected to a t-value, defined as the ratio of the difference between the cluster mean and the population mean, and the standard error. Usually, we reject H0 for p- values that are lower than 0.05 and then state that the variable is able to differentiate the cluster.
+T-values can be estimated using one of two methods Satterthwaite method and Pooled method. Since we had unequal variances we used the first one.
+To run the t-test we generated a sixth 'fake' cluster containing all the units in the data set, i.e. representing the general average of the sample so that it could be used as a comparison between the single clusters and the general sample.
+
+<img width="576" alt="Schermata 2024-09-10 alle 15 42 02" src="https://github.com/user-attachments/assets/4d44d3b8-019a-4ed1-bb1b-349fff1ab982">
+
+# 3.7 CLUSTER ANALYSIS 
+# 3.7.I CLUSTER 1
+
+<img width="291" alt="Schermata 2024-09-10 alle 15 42 49" src="https://github.com/user-attachments/assets/305c0fb6-b946-4a53-8de7-cc4b21676666">
+
+In this case we can observe that our p-values resulted lower than 0.05 for our new_q_12, new_q_13, new_q_14, new_q_15, new_q_16, new_q_17 and new_q_19 variables (wider content, saving money, other countries, search language, pop-up, malware/viruses and friends respectively). This means that these variables are of particular importance for the differentiation process of the cluster we are analysing here.
+On the contrary, we found our new_q_11 and new_q_21 variables (Parental control and No content control respectively) having particularly large p-values, hence not being statistically significant.
+These results additionally show that people do not particularly care about Customer service, cost, and longer waiting time (new_q_4, new_q_9, new_q_10) when it comes to Netflix usage characteristics, but in contrast, it shows that people strongly dislike (highly negative t-values) pop-ups and the possibility of catching viruses (new_q_16, new_q_17) on illegal streaming platforms.
+Safe to say that if any of our respondents uses illegal streaming platforms, it probably won't be because of these last two features, but it will most likely have to do with a wider content choice compared to Netflix (new_q_12) since its t-value is 4.91, showing a strong association to the choice, and also with saving money (new_q_13) with t-value of 4.22.
+
+# 3.7.II CLUSTER 2
+
+<img width="261" alt="Schermata 2024-09-10 alle 15 43 25" src="https://github.com/user-attachments/assets/1b075bb3-c0c5-404d-9fb6-207a84031d04">
+
+The variables characterizing this cluster are new_q_2 (Convenience), new_q_11 (Parental control), new_q_12 (Wider content), new_q_13 (Saving money), new_q_14 (Access to other countries' production), new_q_16 (Pop-ups), and new_q_17 (Malware/viruses).
+As we can see from their negative t-values though, individuals in this cluster do not use Netflix for parental control nor do they use Illegal streaming platforms for wider content, saving money purposes or other countries' production.
+
+# 3.7.III CLUSTER 3
+
+
+
+
