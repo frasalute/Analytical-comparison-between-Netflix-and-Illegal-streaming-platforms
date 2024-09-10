@@ -207,7 +207,11 @@ Based on which variable has a lower p-value than 0.05, we found that the behavio
 
 <img width="564" alt="Schermata 2024-09-10 alle 15 47 23" src="https://github.com/user-attachments/assets/38ef7c75-60c0-497b-bdbf-b6faad3c2e27">
 
-<img width="582" alt="Schermata 2024-09-10 alle 15 47 43" src="https://github.com/user-attachments/assets/fb21f401-8f4c-47df-8a94-513a8e5e59a4">
+<img width="595" alt="Schermata 2024-09-10 alle 17 42 10" src="https://github.com/user-attachments/assets/f55dd82a-e111-4a2d-8379-c2ade37256e1">
+
+The option 1-4 hours is overrepresented in clusters 4 and 5 and underrepresented in clusters 1 and 2 (we understand that by comparing the frequency and the expected value).
+The opposite is true for the option 5+ hours.
+The other two options are more or less what was expected.
 
 As for the 1-4 hours option, we have an overrepresentation in clusters 1, 4, and 5 and an underrepresentation in clusters 2 and 3.
 When it comes to the 30 mins option, it is overall as expected. The same is true for the last two options but we have a slight overrepresentation of the third option in cluster 2, and of the fourth option in cluster 3.
