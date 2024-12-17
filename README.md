@@ -1,4 +1,4 @@
-# Analytical-comparison-between-Netflix-and-Illegal-streaming-platforms
+# Analytical comparison between Netflix and Illegal streaming platforms
 
 (Done in a university setting as project part of a Market Research and Analysis class together with other two students.)
 
