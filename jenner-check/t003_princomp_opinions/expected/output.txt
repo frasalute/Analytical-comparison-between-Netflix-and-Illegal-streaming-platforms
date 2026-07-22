@@ -1,0 +1,23 @@
+                       The PRINCOMP Procedure
+
+                    Observations          60
+                    Variables              1
+
+                       Simple Statistics
+
+Variable                    Mean          StdDev
+
+__POSRANGE__:q_1:q_21    0.00000         0.00000
+
+                    Correlation Matrix
+
+                           __POSRANGE__:q_1:q_21
+
+__POSRANGE__:q_1:q_21                     0.0000
+
+             Eigenvalues of the Correlation Matrix
+
+                  Eigenvalue    Difference    Proportion    Cumulative
+
+
+                           Eigenvectors

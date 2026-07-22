@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_means_opinions",
+  "source_file": "Code.sas",
+  "source_blob_sha": "acde25ea89576accc05db962641e074c812b4b53",
+  "source_commit": "4365ef379e6489606110d51eeea264f88eeb5e68",
+  "notes": "PROC MEANS summary stats over the q: (opinion) variables (Code.sas lines 13-15, verbatim); streaming is a mock survey dataset matching the repo README schema."
+}

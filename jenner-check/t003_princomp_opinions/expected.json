@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-22T04:30:37Z",
+  "_captured_run_id": "r_ec221de7776c4dddb76583c1c83ef11a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote streaming (60 rows, 46 columns).",
+    "NOTE: PROC PRINCOMP data=streaming",
+    "NOTE: Analysis based on Correlation Matrix",
+    "NOTE: PROC PRINCOMP completed."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_freq_missing",
+  "source_file": "Code.sas",
+  "source_blob_sha": "acde25ea89576accc05db962641e074c812b4b53",
+  "source_commit": "4365ef379e6489606110d51eeea264f88eeb5e68",
+  "notes": "PROC FREQ with the repo's MISSING/MISSPRINT missing-value handling options on demographic d_8 (Code.sas lines 5-11, verbatim); streaming is a mock survey dataset matching the repo README schema."
+}
