@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_freq_chisq_crosstab",
+  "source_file": "Code.sas",
+  "source_blob_sha": "acde25ea89576accc05db962641e074c812b4b53",
+  "source_commit": "4365ef379e6489606110d51eeea264f88eeb5e68",
+  "notes": "PROC FREQ crosstabulation with /expected chisq (the repo's chi-square crosstab pattern, Code.sas lines 170-172) over demographic variables; streaming is a mock survey dataset matching the repo README schema."
+}

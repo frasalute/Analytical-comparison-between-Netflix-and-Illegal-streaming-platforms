@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-22T04:30:37Z",
+  "_captured_run_id": "r_0ffbe9fe59e64c149e5908c6c783d7a1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote streaming (60 rows, 46 columns).",
+    "NOTE: Wrote streaming2 (60 rows, 70 columns).",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

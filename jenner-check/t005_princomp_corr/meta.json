@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_princomp_corr",
+  "source_file": "Code.sas",
+  "source_blob_sha": "acde25ea89576accc05db962641e074c812b4b53",
+  "source_commit": "4365ef379e6489606110d51eeea264f88eeb5e68",
+  "notes": "PROC PRINCOMP producing principal components, then PROC CORR on Prin1-Prin7 (Code.sas lines 61-68 pattern); streaming is a mock survey dataset matching the repo README schema."
+}

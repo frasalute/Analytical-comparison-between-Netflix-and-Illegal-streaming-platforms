@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-22T04:30:37Z",
+  "_captured_run_id": "r_8d56b5fbf0a643439379f52411eaed6f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote streaming (60 rows, 46 columns).",
+    "NOTE: PROC FREQ",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

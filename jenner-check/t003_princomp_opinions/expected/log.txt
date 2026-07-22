@@ -1,0 +1,19 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA streaming
+
+
+NOTE: Wrote streaming (60 rows, 46 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINCOMP data=streaming
+
+NOTE: Using Python sklearn version 1.9.0
+NOTE: Eigenvectors:
+NOTE:   Variable    
+NOTE: Number of Observations: 60
+NOTE: Analysis based on Correlation Matrix
+NOTE: PROC PRINCOMP ODS Graphics generated.
+NOTE: PROC PRINCOMP completed.

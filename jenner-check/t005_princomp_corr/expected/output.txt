@@ -1,0 +1,53 @@
+                       The PRINCOMP Procedure
+
+                    Observations          60
+                    Variables              1
+
+                       Simple Statistics
+
+Variable                    Mean          StdDev
+
+__POSRANGE__:q_1:q_21    0.00000         0.00000
+
+                    Correlation Matrix
+
+                           __POSRANGE__:q_1:q_21
+
+__POSRANGE__:q_1:q_21                     0.0000
+
+             Eigenvalues of the Correlation Matrix
+
+                  Eigenvalue    Difference    Proportion    Cumulative
+
+
+                           Eigenvectors
+                    The CORR Procedure
+          7 Variables:    Prin1   Prin2   Prin3   Prin4   Prin5   Prin6   Prin7
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Prin1            0         .         .         .         .         .
+Prin2            0         .         .         .         .         .
+Prin3            0         .         .         .         .         .
+Prin4            0         .         .         .         .         .
+Prin5            0         .         .         .         .         .
+Prin6            0         .         .         .         .         .
+Prin7            0         .         .         .         .         .
+   Pearson Correlation Coefficients, N = 0
+          Prob > |r| under H0: Rho=0
+               Prin1     Prin2     Prin3     Prin4     Prin5     Prin6     Prin7
+--------  --------  --------  --------  --------  --------  --------  --------
+Prin1            .         .         .         .         .         .         .
+              .            .         .         .         .         .         .
+Prin2            .         .         .         .         .         .         .
+                 .      .            .         .         .         .         .
+Prin3            .         .         .         .         .         .         .
+                 .         .      .            .         .         .         .
+Prin4            .         .         .         .         .         .         .
+                 .         .         .      .            .         .         .
+Prin5            .         .         .         .         .         .         .
+                 .         .         .         .      .            .         .
+Prin6            .         .         .         .         .         .         .
+                 .         .         .         .         .      .            .
+Prin7            .         .         .         .         .         .         .
+                 .         .         .         .         .         .      .

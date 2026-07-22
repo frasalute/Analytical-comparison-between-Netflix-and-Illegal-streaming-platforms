@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_normalize_array",
+  "source_file": "Code.sas",
+  "source_blob_sha": "acde25ea89576accc05db962641e074c812b4b53",
+  "source_commit": "4365ef379e6489606110d51eeea264f88eeb5e68",
+  "notes": "The repo's signature array/do-over normalization of opinion variables into new_q_1-new_q_21, then PROC MEANS (Code.sas lines 21-58, verbatim); streaming is a mock survey dataset matching the repo README schema."
+}
